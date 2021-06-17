@@ -1,10 +1,59 @@
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {background-color: #ab1700;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+ul.topnav li a:hover:not(.active) {background-color: red;}
+
+ul.topnav li a.active {background-color: red;}
+
+ul.topnav li.right {float: left;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
 <ul class="topnav">
   <li><a class="active" href="APCSP home.htm">Home</a></li>
   <li><a href="Code.htm">Code</a></li>
   <li><a href="Examples.htm">Examples</a></li>
-  <li><a href="Work.htm">Work</a></li>
+  <li><a href="Pictures.htm">Other Apps</a></li>
 </ul>
+
+
+
+<body background-color: coral;> 
+
+<div class="w3-container w3-red">
+
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
